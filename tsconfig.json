@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "skipLibCheck": true,
+        "module": "commonjs",
+        "sourceMap": true,
+        "target": "esnext",
+        "outDir": "lib",
+         "typeRoots": [
+            "node_modules/@types"
+        ],
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "./types/*"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "test",
+        "dist",
+        "lib",
+        "**/*.spec.ts"
+    ]
+}
